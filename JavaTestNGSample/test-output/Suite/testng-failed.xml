@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="FirstTestNGFile(failed)">
+    <classes>
+      <class name="TestDemo.FirstTestNGFile">
+        <methods>
+          <include name="support"/>
+          <include name="register"/>
+          <include name="goBackToHomepage"/>
+          <include name="verifyHomepageTitle"/>
+        </methods>
+      </class> <!-- TestDemo.FirstTestNGFile -->
+    </classes>
+  </test> <!-- FirstTestNGFile(failed) -->
+</suite> <!-- Failed suite [Suite] -->
